@@ -7,7 +7,7 @@
 ## Description
 [`Lab.pdf`](./Lab.pdf) contains step by step process of downloading a linux kernel, installing packages to compile kernels, creating a syscall function inside `mySyscall/mySyscall.c`, altering Makefile and adding new system call to syscall table, and finally compiling the modified kernel.
 
-After following above process, compile `mySyscallTest.c` and run `./a.out` file. And see the effect of syscall in `dmesg` by checking last line of the following command:
+After following above process, compile `mySyscallTest.c` using `gcc` and run `./a.out` file. And see the effect of syscall in `dmesg` by checking last line of the following command:
 ```bash
 sudo dmesg
 ```
